@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Crud",
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+    "start": "nodemon index.js",
+=======
+    "start": "node index.js",
+>>>>>>> 279dac5133263d8df6b913d61d72d8b60f878bd0
+    
+    "build": "npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivam singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.0",
+    "nodemon": "^3.0.0"
+  }
+}
